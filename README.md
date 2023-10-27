@@ -1,1 +1,3 @@
-# Lab-2-Responsive-Web-Page-Design
+# Japanese Food
+
+This project aims to provide a comprehensive guide to the rich culinary heritage of Japan, offering an immersive experience to learn about the diverse flavors, traditions, and cultural significance of Japanese cuisine. Explore a variety of resources on artistry behind tonkatsu, the essence of ramen culture, the finesse of matcha ice cream preparation, and much more. Join us on a culinary journey through the vibrant world of Japanese culinary arts.
