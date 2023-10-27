@@ -2,27 +2,52 @@
 <html>
 
 <head>
-    <title>Page Title</title>
+    <title>Ramen</title>
 
     <!-- Including the main.css file for styling -->
     <link rel="stylesheet" href="css/main.css">
 
     <!-- Including the Font Awesome CSS library for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("../img/ramen2.jpeg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+</style>
 </head>
 
 <body>
-
     <!-- Navigation bar -->
     <div class="topnav" id="myTopnav">
+        <!-- Active link pointing to the home page -->
+        <a class="active" href="index.html">Home</a>
         <!-- Links to different sections -->
-        <a href="index.html">Abstract</a>
-        <a href="section1.html">Section 1</a>
-
-        <!-- Active link pointing to the section2.html page -->
-        <a class="active" href="section2.html">Section 2</a>
-
-        <a href="section3.html">Section 3</a>
+        <a href="section1.html">Tonkatsu</a>
+        <a href="section2.html">Ramen</a>
+        <a href="section3.html">Matcha Ice Cream</a>
         <a href="see_also.html">See Also</a>
         <a href="references.html">References</a>
 
@@ -32,10 +57,62 @@
         </a>
     </div>
 
+    <div class="parallax"></div>
+
+<div style="height:100px;background-color:rgb(255, 255, 255);font-size:36px;text-align: center;">
+ラーメン
+<br>
+拉麺
+</div>
+
+<div class="parallax"></div>
+
     <!-- Page content -->
     <div class="content">
         <!-- Section 2 content -->
-        This is section 2.
+        <h2>Ramen</h2>
+        <img src="img/ramen.jpeg" style="width: 100%; height: 100%;">
+        <br>
+        <br>
+        Ramen, a beloved and internationally renowned noodle dish, has deep roots in Japanese
+        culinary tradition and culture. With a rich and flavorful broth accompanied by various
+        toppings and springy wheat noodles, ramen has evolved into a global culinary phenomenon,
+        cherished for its comforting and diverse flavors.
+        <br>
+        <br>
+        The history of ramen can be traced back to its Chinese origins, where it is believed to
+        have been introduced to Japan during the late 19th century. The dish underwent several
+        transformations and adaptations to suit the Japanese palate and culinary preferences,
+        eventually becoming an integral part of Japanese cuisine. In its early days, ramen was
+        considered a popular street food sold by yatai (food stalls) and food vendors across Japan,
+        especially in urban centers like Tokyo and Yokohama.
+        <br>
+        <br>
+        Over time, ramen gained widespread popularity and diversified into various regional styles,
+        each with its own distinct broth, noodle type, and toppings. The four main types of ramen
+        in Japan include shoyu (soy sauce-based), shio (salt-based), miso (soybean paste-based),
+        and tonkotsu (pork bone-based) ramen, each offering a unique and nuanced flavor profile.
+        <br>
+        <br>
+        Ramen's global influence can be attributed to the post-World War II era, when Japan's
+        economic and cultural resurgence led to the proliferation of ramen shops and restaurants
+        both within and outside Japan. Ramen's adaptability and versatility have allowed it to
+        transcend cultural boundaries, leading to the emergence of fusion and contemporary variations
+        that cater to diverse tastes and preferences worldwide.
+        <br>
+        <br>
+        Today, ramen continues to be celebrated as a staple of Japanese gastronomy, revered for its
+        comforting and soul-nourishing qualities. Its evolution and proliferation have led to a vibrant
+        and dynamic ramen culture, with ramen enthusiasts, chefs, and aficionados constantly innovating
+        and redefining the boundaries of this iconic and beloved noodle dish. Whether served in a
+        traditional ramen-ya or a modern culinary establishment, ramen's rich history and cultural
+        significance persist as a testament to its enduring legacy in the world of global cuisine.
+        <br>
+        <br>
+        <h3>Miso Ramen Recipe</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/__FCDfqkcgk" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
     </div>
 
     <!-- Including the main.js file for JavaScript functionality -->
